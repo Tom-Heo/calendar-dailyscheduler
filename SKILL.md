@@ -1,6 +1,6 @@
 ---
 name: calendar-dailyscheduler
-description: CALENDAR.md를 기반으로 특정 날짜의 일간 일정을 dailyschedule-YYYY-MM-DD.md 파일로 생성·관리하는 스킬이다. 해당 날짜의 루틴과 일정을 일정표로 통합하고, 할 일과 이벤트를 D-Day와 함께 표시하며, ~/.openclaw/workspace/memory/ 경로에 파일을 저장한다.
+description: CALENDAR.md를 기반으로 특정 날짜의 일간 일정 파일(dailyschedule-YYYY-MM-DD.md)을 ~/.openclaw/workspace/memory/ 경로에 생성·관리하는 스킬. 해당 날짜의 루틴과 일정을 일정표로 통합하고, 할 일과 이벤트를 D-Day와 함께 표시한다. 트리거: 해당 날짜의 dailyschedule 파일이 없거나, 항목 추가·제거·수정이 필요하거나, 기존 파일에 오류가 있거나, 사용자가 dailyschedule 수정을 요청하는 상황. CALENDAR.md 자체의 수정에는 사용하지 않는다—CALENDAR.md 업데이트는 calendar-manager의 영역이다.
 ---
 # calendar-dailyscheduler
 
